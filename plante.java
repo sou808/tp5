@@ -13,8 +13,7 @@ public class plante {
         this.age = age;
         this.prix = prix;
     }
-
-    @Override
+    
     public String toString() {
         return ("La plante du nom " + nom + " a une hauteur de " + hauteur + " cm, âgée de: " + age + " mois, son prix est: " + prix);
     }
